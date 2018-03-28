@@ -16,7 +16,7 @@ public class SysUserServiceImpl extends ServiceImpl<SysUserMapper, SysUser> impl
 
 	@Resource
 	private KafkaProducerSender kafkaProducerSender;
-	
+
 	//=====================================业务处理 start=====================================
 
 	@Override

@@ -6,5 +6,8 @@ import com.gitnavi.springboot.producer.pojo.entity.SysUser;
 
 public interface SysUserService extends IService<SysUser> {
 
+
 	void sendMessage(String topicName, SysUser sysUser);
+
+
 }

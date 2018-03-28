@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Configuration monitoringInterval="3600" shutdownHook="disable">
     <Properties>
-        <Property name="basedir">logs/kafka-consumer</Property>
+        <Property name="basedir">logs/kafka-producer-consumer</Property>
         <Property name="all-logger">all-logger</Property>
     </Properties>
     <Appenders>

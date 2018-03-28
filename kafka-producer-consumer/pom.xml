@@ -4,12 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.gitnavi.springboot</groupId>
-    <artifactId>kafka-consumer</artifactId>
+    <artifactId>kafka-producer-consumer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>kafka-consumer</name>
-    <description>kafka-consumer</description>
+    <name>kafka-producer-consumer</name>
+    <description>kafka-producer-consumer</description>
 
     <parent>
         <groupId>com.gitnavi.springboot</groupId>

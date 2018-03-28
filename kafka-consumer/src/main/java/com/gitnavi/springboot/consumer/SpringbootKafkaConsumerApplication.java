@@ -1,4 +1,4 @@
-package com.gitnavi.springboot.producer;
+package com.gitnavi.springboot.consumer;
 
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Value;
@@ -13,7 +13,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableTransactionManagement
 @Log4j2
 @SpringBootApplication
-public class SpringbootKafkaProducerApplication implements CommandLineRunner {
+public class SpringbootKafkaConsumerApplication implements CommandLineRunner {
 
 	@Value("${server.port:8833}")
 	private String serverPort;
@@ -24,7 +24,7 @@ public class SpringbootKafkaProducerApplication implements CommandLineRunner {
 	//=================================================================================
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringbootKafkaProducerApplication.class, args);
+		SpringApplication.run(SpringbootKafkaConsumerApplication.class, args);
 	}
 
 	@Override
